@@ -7,7 +7,7 @@ void kelebek(int);
 int main()
 {
     int satir;
-    printf("Satiri giriniz:");
+    printf("Kelebegin uzunlugunu giriniz:");
     scanf("%d",&satir);
     kelebek(satir);
     return 0;
