@@ -23,7 +23,7 @@ void fibonacci(int tane)
 int main()
 {
     int sayi;
-    printf("Lutfen pozitif bir tam sayi giriniz:");
+    printf("Lutfen fibonacci dizisinin uzunkugunu giriniz:");
     scanf("%d",&sayi);
     fibonacci(sayi);
 
