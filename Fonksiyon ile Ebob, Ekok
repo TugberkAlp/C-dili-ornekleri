@@ -54,3 +54,4 @@ void ekok(int a,int b)
     }
     printf("%d ve %d sayilarinin en kucuk ortak kati: %d",a,b,ekok);
 }
+
