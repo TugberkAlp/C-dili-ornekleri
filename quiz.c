@@ -43,7 +43,7 @@ struct ogrenci BasariliOgrenciBul(struct ogrenci o1,struct ogrenci o2)
 int main()
 {
   struct ogrenci o1,o2,basarili;
-  char satir;
+  char satir;//char karakter dizisi alirkenki hatayi cozer.
 
   printf("Birinci ogrencinin bilgilerini giriniz:\n");
   printf("Ogrenci numarasi: ");
@@ -59,7 +59,7 @@ int main()
   printf("\n");
 
   printf("Ikinci ogrencinin bilgilerini giriniz:\n");
-  scanf("%c",&satir);
+  scanf("%c",&satir);//char karakter dizisi giricekken girilen enteri etkisiz hale getirir.
   printf("Ogrenci numarasi: ");
   fgets(o2.no,50,stdin);
   printf("Ogrencinin adi soyadi: ");
